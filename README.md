@@ -70,11 +70,21 @@ The SourceArt folder contains all the original art assets including the Blender 
 
 # Usage
 
+## Unreal Engine
+
+Basic: In Foliage Mode, simply add the desired assets to your Foliage brush and begin painting on the landscape.
+
+Intermediate: Add desired assets as Grass assets to a Landscape Auto Material.
+
+Advanced: Add desired assets as Instanced Foliage Actor assets to a Landscape Auto Material for Customization and Interactability.
+
 ## Material and Texture Setup
 
-All Textures are Channel Packed into the RGBA Channels.
-Targa (.TGA) files are used whenever useful to store data in the Alpha channel.
+All Textures are Channel Packed into the RGBA Channels. Targa (.TGA) files are used whenever useful to store data in the Alpha channel.
+
 A Color Map is used to allow for customization of up to 3 colors per material instance.
+
+Make Material Instances for countless color and parameter variations for use in Instanced Foliage Actors.
 
 **Maps**
 Some assets may not use all maps/channels.
@@ -86,7 +96,7 @@ Some assets may not use all maps/channels.
 
 # Settings
 
-An example Material setup is included in Content that utilizes up to 3 customizable colors.
+An example Material setup is included in Content that utilizes up to 3 customizable colors and other parameters.
 
 # Contributions
 
