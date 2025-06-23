@@ -4,6 +4,10 @@
 # exclude patterns (uncomment them if you want to use them):
 # *.[oa]
 # *~
+
+# Blend backup files
+*.blend1
+
 # Visual Studio 2015 user specific files
 .vs/
 /.vs/
